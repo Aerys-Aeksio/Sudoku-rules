@@ -1,0 +1,101 @@
+-----Normal sudoku rules apply:
+In every row, column and in every 3x3 box the digits from 1 to 9 have to appear atleast once.
+-----Negative diagonal:
+Digits cannot repeat along the negative diagonal.
+--Positive diagonal:
+Digits cannot repeat along the positive diagonal.
+-----Extra region/different values:
+Digits cannot repeat in the marked cells.
+-----Anti-king:
+Cells seperated by a king’s move in chess cannot have the same digit.
+-----Anti-knight:
+Cells seperated by a knight’s move in chess cannot have the same digit.
+-----Disjoint groups:
+Cells with the same position within the boxes cannot contain the same digit.
+-----Non­-consecutive:
+Cells that are orthogonally adjacent cannot contain consecutive digits.
+-----Even:
+Cells with grey squares must contain EVEN digit.
+-----Odd:
+Cells with grey circles must contain ODD digit.
+-----Maximum:
+Cells with this constraint are greater than all orthogonal adjacent cells without this constraint.
+-----Minimum:
+Cells with this constraint are smaller than all orthogonal adjacent cells without this constraint.
+-----XV:
+Cells joined by an X or V must sum to 10 (X) or 5 (V).
+-----Slow thermometers:
+Digits on a slow thermo increase or stay the same but never decrease.
+-----Thermometers:
+Digits on a thermometer strictly increase as they move away from the bulb.
+-----Killer cages:
+Digits in cages must sum to the number in the top-left corner and cannot repeat.
+-----Clones:
+The arrangement of digits in a part of the sudoku must be the same elsewhere.
+-----Quadruples:
+Every digit in a circle has to be assigned to one of the surrounding cells.
+-----Look-and-say cages:
+Read the clue out loud, which describes the nature of the cage. E.g. 1522 says there is “one five and two two(s)” in the cage.
+-----Renban lines:
+Every renban lines contains a set of consecutive digits in any order, without repeats.
+-----Difference Kropki dots:
+Cells with a white kropi dot between them are consecutive.
+----Ratio kropki dots:
+Cells with a black dot between them are in a ratio of 1 to 2.Wich means the following posibilities, 1-2, 2-4, 4-8 and 3-6.
+-----German whisper lines:
+Two cells connected by a German whisper line must have a difference of at least 5.
+-----Dutch whisper lines:
+Two cells connected by a Dutch whisper line must have a difference of at least 4.
+-----Palindrome:
+Digits on a palindrome line read the same forwards and backwards.
+-----Between lines:
+Digits along a between line must be between the digits on the circled ends of the line.
+-----Region sum lines:
+For each line, digits on the line have an equal sum N within each box it passes through.
+-----Sequence line:
+Sequence lines contain digits in order with a constant difference. E.g. 1-2-3, 2-5-8 or even 3-3-3...
+-----Entropic line:
+Every 3 consecutive cells along an entropic line must contain a low digit (1,2,3), middle digit (4,5,6) and high digit (7,8,9).
+-----Modulo 3 line:
+Every 3 consecutive cells along a 3-modular line must contain a complete set of residuals modulo 3. i.e: one from (3,6,9), one from (1,4,7) and one from (2,5,8).
+-----Global entropy:
+Every 2x2 square of cells must contain a low digit (1,2,3), middle digit (4,5,6) and high digit (7,8,9).
+-----Global modulo 3:
+Every 2x2 square of cells must contain a digit from (1,4,7), a digit from (2,5,8) and a digit from (3,6,9).
+-----Lockout line:
+Digits along a lockout line must not be between the digits on the circled ends of the line, which have a difference of at least 4.
+-----Arrows:
+Digits along an arrow sum to the number shown in the circled cells.
+-----Double arrows:
+The sum of the digits along a ‘double arrow’ line is equal to the sum of the digits in the circles at either end of the line.
+-----Little killers:
+Digits along marked diagonals sum to the number indicated outside the grid.
+-----Sandwich sum:
+Digits between 1 and 9 in the indicated row or column must sum to the indicated value.
+-----X-sum
+Clues at the edge of the grid show the sum of the first X digits, where X is the first seen digit.
+-----Skyscrapers
+Each digit in the grid represents the height of a building in its cell. Taller buildings obstruct the view of shorter ones behind them. Clues outside the grid give the number of buildings visible from that vantage point in the clue's row or column.
+-----Numbered rooms:
+Clues outside the grid indicate the digit which has to be placed in the Nth cell in the corresponding direction, where N is the digit placed in the first cell in that direction.
+-----Row indexers:
+A marked cell in row X indicates the row where X appears in the column.
+-----Column indexers:
+A marked cell in column X indicates the column where X appears in the row.
+-----Shifter dots:
+Digts on different sides of a shifter dot must always share either parity (even/odd) OR polarity (high/low) - never neither, never both. Shifter dots can never have 5 on it.
+-----Pointer Thermos:
+Digits along thermometers increase in value from the bulb end. Additionally, thermometer tips point towards a cell containing the digit within the bulb. The value in the tip indicates the distance to this cell. There may be other instances of the digit between the tip and this cell. If a thermometer has more than one tip, then each tip points towards a different instance of the bulb digit.
+-----Parity lines:
+Digts along a parity line alternate between odd and even. For example: 1434 or 23654.
+
+<img:xxxxxx>
+
+Play the puzzle here:
+
+Play in <a style="border:1px solid black;border-radius:4px;padding:4px 5px;margin:2px;background-color:#ccf;color:black;text-decoration:none" href="link"><small>Sirxemic’s</small> Sudokumaker</a> or in
+<a style="border:1px solid black;border-radius:4px;padding:4px 5px;margin:2px;background-color:#ccf;color:black;text-decoration:none" href="link">Sven's Sudokupad</a>.
+
+General Sudoku Rules <a href="https://github.com/kierownik/Sudoku-rules/edit/main/Sudoku%20Rules.txt" title="Here you can find some rules you can use to paste here in LMG">Github</a>.
+
+<a href="https://smallpdf.com/file#s=54247123-831b-472a-9260-8aebf34c7d35">PDF Cheatsheet Killer Cages</a>
