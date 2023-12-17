@@ -195,7 +195,7 @@
 </p>
 
 <p>
-  <small>General Sudoku Rules <a href="https://gist.github.com/kierownik/08c7cfcaf8e84c41e2afcd22edfcb651" title="Here you can find some rules you can use to paste here in LMG">Pastebin</a>.</small>
+  <small>General Sudoku Rules <a href="https://github.com/kierownik/Sudoku-rules/edit/main/Sudoku%20Rules.txt" title="Here you can find some rules you can use to paste here in LMG">Github</a>.</small>
 </p>
 
 <p>
