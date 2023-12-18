@@ -37,7 +37,7 @@ Every digit in a circle has to be assigned to one of the surrounding cells.
 -----Look-and-say cages:
 Read the clue out loud, which describes the nature of the cage. E.g. 1522 says there is “one five and two two(s)” in the cage.
 -----Renban lines:
-Every renban lines contains a set of consecutive digits in any order, without repeats.
+Every renban line contains a set of consecutive digits in any order, without repeats.
 -----Difference Kropki dots:
 Cells with a white kropi dot between them are consecutive.
 ----Ratio kropki dots:
