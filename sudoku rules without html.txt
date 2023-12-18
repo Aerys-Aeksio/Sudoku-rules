@@ -72,9 +72,9 @@ The sum of the digits along a ‘double arrow’ line is equal to the sum of the
 Digits along marked diagonals sum to the number indicated outside the grid.
 -----Sandwich sum:
 Digits between 1 and 9 in the indicated row or column must sum to the indicated value.
------X-sum
+-----X-sum:
 Clues at the edge of the grid show the sum of the first X digits, where X is the first seen digit.
------Skyscrapers
+-----Skyscrapers:
 Each digit in the grid represents the height of a building in its cell. Taller buildings obstruct the view of shorter ones behind them. Clues outside the grid give the number of buildings visible from that vantage point in the clue's row or column.
 -----Numbered rooms:
 Clues outside the grid indicate the digit which has to be placed in the Nth cell in the corresponding direction, where N is the digit placed in the first cell in that direction.
