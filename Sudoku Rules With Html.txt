@@ -77,7 +77,7 @@
   </li>
   <li>
      <strong><u>Renban lines:</u></strong><br>
-     Every (purple)renban lines contains a set of consecutive digits in any order, without repeats.
+     Every renban lines contains a set of consecutive digits in any order, without repeats.
   </li>
   <li>
      <strong><u>Difference Kropki dots:</u></strong><br>
@@ -148,11 +148,11 @@
      Digits between 1 and 9 in the indicated row or column must sum to the indicated value.
   </li>
   <li>
-     <strong><u>X-sum</u></strong><br>
+     <strong><u>X-sum:</u></strong><br>
      Clues at the edge of the grid show the sum of the first X digits, where X is the first seen digit.
   </li>
   <li>
-     <strong><u>Skyscrapers</u></strong><br>
+     <strong><u>Skyscrapers:</u></strong><br>
      Each digit in the grid represents the height of a building in its cell. Taller buildings obstruct the view of shorter ones behind them. Clues outside the grid give the number of buildings visible from that vantage point in the clue's row or column.
   </li>
   <li>
