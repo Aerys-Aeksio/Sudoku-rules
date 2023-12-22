@@ -1,5 +1,7 @@
------Normal sudoku rules apply:
+-----Normal 9x9 sudoku rules apply:
 In every row, column and in every 3x3 box the digits from 1 to 9 have to appear atleast once.
+-----Normal 6x6 sudoku rules apply:
+In every row, column and in every box the digits from 1 to 6 have to appear atleast once.
 -----Negative diagonal:
 Digits cannot repeat along the negative diagonal.
 --Positive diagonal:
@@ -22,8 +24,8 @@ Cells with grey circles must contain ODD digit.
 Cells with this constraint are greater than all orthogonal adjacent cells without this constraint.
 -----Minimum:
 Cells with this constraint are smaller than all orthogonal adjacent cells without this constraint.
------XV:
-Cells joined by an X or V must sum to 10 (X) or 5 (V).
+-----XV-Pairs:
+Cells joined by an X or V must sum to 10(X) or 5(V).
 -----Slow thermometers:
 Digits on a slow thermo increase or stay the same but never decrease.
 -----Thermometers:
