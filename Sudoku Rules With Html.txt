@@ -198,11 +198,3 @@
   Play in <a style="border:1px solid black;border-radius:4px;padding:4px 5px;margin:2px;background-color:#ccf;color:black;text-decoration:none" href="link"><small>Sirxemic’s</small> Sudokumaker</a> or in
 <a style="border:1px solid black;border-radius:4px;padding:4px 5px;margin:2px;background-color:#ccf;color:black;text-decoration:none" href="link">Sven's Sudokupad</a>.
 </p>
-
-<p>
-  <small>General Sudoku Rules <a href="https://github.com/kierownik/Sudoku-rules/edit/main/Sudoku%20Rules.txt" title="Here you can find some rules you can use to paste here in LMG">Github</a>.</small>
-</p>
-
-<p>
-  <small><a href="https://smallpdf.com/file#s=54247123-831b-472a-9260-8aebf34c7d35">PDF Cheatsheet Killer Cages</a></small>
-</p>
