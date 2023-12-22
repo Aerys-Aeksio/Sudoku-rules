@@ -43,7 +43,7 @@ Every renban line contains a set of consecutive digits in any order, without rep
 -----Difference Kropki dots:
 Cells with a white kropi dot between them are consecutive.
 ----Ratio kropki dots:
-Cells with a black dot between them are in a ratio of 1 to 2.Wich means the following posibilities, 1-2, 2-4, 4-8 and 3-6.
+Cells with a black dot between them are in a ratio of 1 to 2.Wich means you have the following posibilities, 1-2, 2-4, 4-8 and 3-6.
 -----German whisper lines:
 Two cells connected by a German whisper line must have a difference of at least 5.
 -----Dutch whisper lines:
