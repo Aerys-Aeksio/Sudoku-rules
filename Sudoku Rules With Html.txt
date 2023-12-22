@@ -1,8 +1,12 @@
 <p>
 <ul>
   <li>
-     <strong><u>Normal sudoku rules apply:</u></strong><br>
+     <strong><u>Normal 9x9 sudoku rules apply:</u></strong><br>
      In every row, column and in every 3x3 box the digits from 1 to 9 have to appear atleast once.
+  </li>
+  <li>
+     <strong><u>Normal 6x6 sudoku rules apply:</u></strong><br>
+     In every row, column and in every box the digits from 1 to 6 have to appear atleast once.
   </li>
   <li>
      <strong><u>Negative diagonal:</u></strong><br>
@@ -49,13 +53,14 @@
      Cells with this constraint are smaller than all orthogonal adjacent cells without this constraint.
   </li>
   <li>
-     <strong><u>XV:</u></strong><br>
-     Cells joined by an X or V must sum to 10 (X) or 5 (V).
+     <strong><u>XV-Pairs:</u></strong><br>
+     Cells joined by an X or V must sum to 10(X) or 5(V).
   </li>
   <li>
      <strong><u>Slow thermometers:</u></strong><br>
      Digits on a slow thermo increase or stay the same but never decrease.
-  </li>  <li>
+  </li>
+  <li>
      <strong><u>Thermometers:</u></strong><br>
      Digits on a thermometer strictly increase as they move away from the bulb.
   </li>
