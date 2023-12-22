@@ -90,7 +90,7 @@
   </li>
   <li>
     <strong><u>Ratio kropki dots:</u></strong><br>
-    Cells with a black dot between them are in a ratio of 1 to 2.<br>Wich means the following posibilities, 1-2, 2-4, 4-8 and 3-6.
+    Cells with a black dot between them are in a ratio of 1 to 2. Wich means you have the following posibilities, 1-2, 2-4, 4-8 and 3-6.
   </li>
   <li>
      <strong><u>German whisper lines:</u></strong><br>
