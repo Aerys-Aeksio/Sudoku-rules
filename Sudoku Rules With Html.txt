@@ -187,7 +187,7 @@
 </ul>
 </p>
 
-<p style="width:350px;">
+<p style="width:350px; margin:0px; padding:0px;">
  <img:xxxxxx>
 </p>
 
