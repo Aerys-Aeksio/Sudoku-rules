@@ -2,8 +2,24 @@ Here you can find some sudoku rules formatted for Logic Master Germany.
 <p>
 <ul>
   <li>
-     <strong><u>Normal sudoku rules apply:</u></strong><br>
+     <strong><u>Normal 9x9 sudoku rules apply:</u></strong><br>
      In every row, column and in every 3x3 box the digits from 1 to 9 have to appear atleast once.
+  </li>
+  <li>
+     <strong><u>Normal 8x8 sudoku rules apply:</u></strong><br>
+     In every row, column and in every 4x2 box the digits from 1 to 8 have to appear atleast once.
+  </li>
+  <li>
+     <strong><u>Normal 7x7 sudoku rules apply:</u></strong><br>
+     In every row, column and in every box the digits from 1 to 7 have to appear atleast once.
+  </li>
+  <li>
+     <strong><u>Normal 6x6 sudoku rules apply:</u></strong><br>
+     In every row, column and in every 3x2 box the digits from 1 to 6 have to appear atleast once.
+  </li>
+  <li>
+     <strong><u>Normal 5x5 sudoku rules apply:</u></strong><br>
+     In every row, column and in every box the digits from 1 to 5 have to appear atleast once.
   </li>
   <li>
      <strong><u>Negative diagonal:</u></strong><br>
@@ -50,13 +66,14 @@ Here you can find some sudoku rules formatted for Logic Master Germany.
      Cells with this constraint are smaller than all orthogonal adjacent cells without this constraint.
   </li>
   <li>
-     <strong><u>XV:</u></strong><br>
-     Cells joined by an X or V must sum to 10 (X) or 5 (V).
+     <strong><u>XV-Pairs:</u></strong><br>
+     Cells joined by an X or V must sum to 10(X) or 5(V).
   </li>
   <li>
      <strong><u>Slow thermometers:</u></strong><br>
      Digits on a slow thermo increase or stay the same but never decrease.
-  </li>  <li>
+  </li>
+  <li>
      <strong><u>Thermometers:</u></strong><br>
      Digits on a thermometer strictly increase as they move away from the bulb.
   </li>
@@ -78,7 +95,7 @@ Here you can find some sudoku rules formatted for Logic Master Germany.
   </li>
   <li>
      <strong><u>Renban lines:</u></strong><br>
-     Every (purple)renban lines contains a set of consecutive digits in any order, without repeats.
+     Every renban lines contains a set of consecutive digits in any order, without repeats.
   </li>
   <li>
      <strong><u>Difference Kropki dots:</u></strong><br>
@@ -86,7 +103,7 @@ Here you can find some sudoku rules formatted for Logic Master Germany.
   </li>
   <li>
     <strong><u>Ratio kropki dots:</u></strong><br>
-    Cells with a black dot between them are in a ratio of 1 to 2.<br>Wich means the following posibilities, 1-2, 2-4, 4-8 and 3-6.
+    Cells with a black dot between them are in a ratio of 1 to 2. Wich means you have the following posibilities, 1-2, 2-4, 4-8 and 3-6.
   </li>
   <li>
      <strong><u>German whisper lines:</u></strong><br>
@@ -149,11 +166,11 @@ Here you can find some sudoku rules formatted for Logic Master Germany.
      Digits between 1 and 9 in the indicated row or column must sum to the indicated value.
   </li>
   <li>
-     <strong><u>X-sum</u></strong><br>
+     <strong><u>X-sum:</u></strong><br>
      Clues at the edge of the grid show the sum of the first X digits, where X is the first seen digit.
   </li>
   <li>
-     <strong><u>Skyscrapers</u></strong><br>
+     <strong><u>Skyscrapers:</u></strong><br>
      Each digit in the grid represents the height of a building in its cell. Taller buildings obstruct the view of shorter ones behind them. Clues outside the grid give the number of buildings visible from that vantage point in the clue's row or column.
   </li>
   <li>
@@ -183,8 +200,8 @@ Here you can find some sudoku rules formatted for Logic Master Germany.
 </ul>
 </p>
 
-<p>
-  <img:xxxxxx>
+<p style="width:350px; margin:0px; padding:0px;">
+ <img:xxxxxx>
 </p>
 
 <p>
@@ -193,12 +210,4 @@ Here you can find some sudoku rules formatted for Logic Master Germany.
 <br>
   Play in <a style="border:1px solid black;border-radius:4px;padding:4px 5px;margin:2px;background-color:#ccf;color:black;text-decoration:none" href="link"><small>Sirxemic’s</small> Sudokumaker</a> or in
 <a style="border:1px solid black;border-radius:4px;padding:4px 5px;margin:2px;background-color:#ccf;color:black;text-decoration:none" href="link">Sven's Sudokupad</a>.
-</p>
-
-<p>
-  <small>General Sudoku Rules <a href="https://github.com/kierownik/Sudoku-rules/edit/main/Sudoku%20Rules.txt" title="Here you can find some rules you can use to paste here in LMG">Github</a>.</small>
-</p>
-
-<p>
-  <small><a href="https://smallpdf.com/file#s=54247123-831b-472a-9260-8aebf34c7d35">PDF Cheatsheet Killer Cages</a></small>
 </p>
