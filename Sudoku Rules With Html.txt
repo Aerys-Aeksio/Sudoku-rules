@@ -74,11 +74,11 @@
   </li>
   <li>
      <strong><u>Slow thermometers:</u></strong><br>
-     Digits on a slow thermo increase or stay the same but never decrease.
+     Digits on a slow thermo increase from the bulb to the tip or stay the same but never decrease.
   </li>
   <li>
      <strong><u>Thermometers:</u></strong><br>
-     Digits on a thermometer strictly increase as they move away from the bulb.
+     Digits on a thermometer strictly increase from the bulb to the tip.
   </li>
   <li>
      <strong><u>Killer cages:</u></strong><br>
