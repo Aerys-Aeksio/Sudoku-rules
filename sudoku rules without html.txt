@@ -35,9 +35,9 @@ Cells with this constraint are smaller than all orthogonal adjacent cells withou
 -----XV-Pairs:
 Cells joined by an X or V must sum to 10(X) or 5(V).
 -----Slow thermometers:
-Digits on a slow thermo increase or stay the same but never decrease.
+Digits on a slow thermo increase from the bulb to the tip or stay the same but never decrease.
 -----Thermometers:
-Digits on a thermometer strictly increase as they move away from the bulb.
+Digits on a thermometer strictly increase from the bulb to the tip.
 -----Killer cages:
 Digits in cages must sum to the number in the top-left corner and cannot repeat.
 -----Clones:
