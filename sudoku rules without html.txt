@@ -8,6 +8,8 @@ In every row and column the digits from 1 to 7 have to appear atleast once.
 In every row, column and in 3x2 every box the digits from 1 to 6 have to appear atleast once.
 -----Normal 5x5 sudoku rules apply:
 In every row and column the digits from 1 to 5 have to appear atleast once.
+-----Normal 4x4 sudoku rules apply:
+In every row and column the digits from 1 to 4 have to appear atleast once.
 -----Negative diagonal:
 Digits cannot repeat along the negative diagonal.
 --Positive diagonal:
