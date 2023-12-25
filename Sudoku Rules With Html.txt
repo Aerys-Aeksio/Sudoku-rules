@@ -21,6 +21,10 @@
      In every row, column and in every box the digits from 1 to 5 have to appear atleast once.
   </li>
   <li>
+     <strong><u>Normal 4x4 sudoku rules apply:</u></strong><br>
+     In every row, column and in every box the digits from 1 to 4 have to appear atleast once.
+  </li>
+  <li>
      <strong><u>Negative diagonal:</u></strong><br>
      Digits cannot repeat along the negative diagonal.
   </li>
