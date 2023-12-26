@@ -38,6 +38,14 @@
      Digits cannot repeat along the positive diagonal.
   </li>
   <li>
+     <strong><u>Global entropy:</u></strong><br>
+     Every 2x2 square of cells must contain a low digit (1,2,3), middle digit (4,5,6) and high digit (7,8,9).
+  </li>
+  <li>
+     <strong><u>Global modulo 3:</u></strong><br>
+     Every 2x2 square of cells must contain a digit from (1,4,7), a digit from (2,5,8) and a digit from (3,6,9).
+  </li>
+  <li>
      <strong><u>Extra region/different values:</u></strong><br>
      Digits cannot repeat in the marked cells.
   </li>
@@ -144,14 +152,6 @@
   <li>
      <strong><u>Modulo 3 line:</u></strong><br>
      Every 3 consecutive cells along a 3-modular line must contain a complete set of residuals modulo 3. i.e: one from (3,6,9), one from (1,4,7) and one from (2,5,8).
-  </li>
-  <li>
-     <strong><u>Global entropy:</u></strong><br>
-     Every 2x2 square of cells must contain a low digit (1,2,3), middle digit (4,5,6) and high digit (7,8,9).
-  </li>
-  <li>
-     <strong><u>Global modulo 3:</u></strong><br>
-     Every 2x2 square of cells must contain a digit from (1,4,7), a digit from (2,5,8) and a digit from (3,6,9).
   </li>
   <li>
      <strong><u>Lockout line:</u></strong><br>
