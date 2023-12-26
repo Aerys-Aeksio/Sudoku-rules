@@ -14,6 +14,10 @@ In every row and column the digits from 1 to 4 have to appear atleast once.
 Digits cannot repeat along the negative diagonal.
 --Positive diagonal:
 Digits cannot repeat along the positive diagonal.
+-----Global entropy:
+Every 2x2 square of cells must contain a low digit (1,2,3), middle digit (4,5,6) and high digit (7,8,9).
+-----Global modulo 3:
+Every 2x2 square of cells must contain a digit from (1,4,7), a digit from (2,5,8) and a digit from (3,6,9).
 -----Extra region/different values:
 Digits cannot repeat in the marked cells.
 -----Anti-king:
@@ -68,10 +72,6 @@ Sequence lines contain digits in order with a constant difference. E.g. 1-2-3, 2
 Every 3 consecutive cells along an entropic line must contain a low digit (1,2,3), middle digit (4,5,6) and high digit (7,8,9).
 -----Modulo 3 line:
 Every 3 consecutive cells along a 3-modular line must contain a complete set of residuals modulo 3. i.e: one from (3,6,9), one from (1,4,7) and one from (2,5,8).
------Global entropy:
-Every 2x2 square of cells must contain a low digit (1,2,3), middle digit (4,5,6) and high digit (7,8,9).
------Global modulo 3:
-Every 2x2 square of cells must contain a digit from (1,4,7), a digit from (2,5,8) and a digit from (3,6,9).
 -----Lockout line:
 Digits along a lockout line must not be between the digits on the circled ends of the line, which have a difference of at least 4.
 -----Arrows:
