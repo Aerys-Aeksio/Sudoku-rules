@@ -15,7 +15,7 @@
   </li>
   <li>
      <strong><u>Normal 7x7 sudoku rules apply:</u></strong><br>
-     In every row, column and in every box the digits from 1 to 7 have to appear atleast once.
+     In every row and column the digits from 1 to 7 have to appear atleast once.
   </li>
   <li>
      <strong><u>Normal 6x6 sudoku rules apply:</u></strong><br>
@@ -23,7 +23,7 @@
   </li>
   <li>
      <strong><u>Normal 5x5 sudoku rules apply:</u></strong><br>
-     In every row, column and in every box the digits from 1 to 5 have to appear atleast once.
+     In every row and column the digits from 1 to 5 have to appear atleast once.
   </li>
   <li>
      <strong><u>Normal 4x4 sudoku rules apply:</u></strong><br>
@@ -106,7 +106,7 @@
      Every renban lines contains a set of consecutive digits in any order, without repeats.
   </li>
   <li>
-     <strong><u>Difference Kropki:</u></strong><br>
+     <strong><u>Difference kropki:</u></strong><br>
      Cells with a white kropki between them are consecutive.
   </li>
   <li>
