@@ -190,7 +190,8 @@
   </li>
   <li>
      <strong><u>Shifter dots:</u></strong><br>
-     Digts on different sides of a shifter dot must always share either parity (even/odd) OR polarity (high/low) - never neither, never both. Shifter dots can never have 5 on it.
+     Digts on different sides of a shifter dot must always
+share either parity (even/odd) OR polarity (high/low) - never neither, never both. Shifter dots can never have 5 on it.
   </li>
   <li>
      <strong><u>Pointer Thermos:</u></strong><br>
