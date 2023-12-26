@@ -106,12 +106,12 @@
      Every renban lines contains a set of consecutive digits in any order, without repeats.
   </li>
   <li>
-     <strong><u>Difference Kropki dots:</u></strong><br>
-     Cells with a white kropi dot between them are consecutive.
+     <strong><u>Difference Kropki:</u></strong><br>
+     Cells with a white kropki between them are consecutive.
   </li>
   <li>
-    <strong><u>Ratio kropki dots:</u></strong><br>
-    Cells with a black dot between them are in a ratio of 1 to 2. Wich means you have the following posibilities, 1-2, 2-4, 4-8 and 3-6.
+    <strong><u>Ratio kropki</u></strong><br>
+    Cells with a black kropki between them are in a ratio of 1 to 2. Wich means you have the following posibilities, 1-2, 2-4, 4-8 and 3-6.
   </li>
   <li>
      <strong><u>German whisper lines:</u></strong><br>
