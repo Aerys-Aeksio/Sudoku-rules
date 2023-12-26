@@ -48,10 +48,10 @@ Every digit in a circle has to be assigned to one of the surrounding cells.
 Read the clue out loud, which describes the nature of the cage. E.g. 1522 says there is “one five and two two(s)” in the cage.
 -----Renban lines:
 Every renban line contains a set of consecutive digits in any order, without repeats.
------Difference Kropki dots:
-Cells with a white kropi dot between them are consecutive.
-----Ratio kropki dots:
-Cells with a black dot between them are in a ratio of 1 to 2.Wich means you have the following posibilities, 1-2, 2-4, 4-8 and 3-6.
+-----Difference Kropki:
+Cells with a white kropki between them are consecutive.
+----Ratio kropki:
+Cells with a black kropki between them are in a ratio of 1 to 2.Wich means you have the following posibilities, 1-2, 2-4, 4-8 and 3-6.
 -----German whisper lines:
 Two cells connected by a German whisper line must have a difference of at least 5.
 -----Dutch whisper lines:
@@ -98,10 +98,3 @@ Digts on different sides of a shifter dot must always share either parity (even/
 Digits along thermometers increase in value from the bulb end. Additionally, thermometer tips point towards a cell containing the digit within the bulb. The value in the tip indicates the distance to this cell. There may be other instances of the digit between the tip and this cell. If a thermometer has more than one tip, then each tip points towards a different instance of the bulb digit.
 -----Parity lines:
 Digts along a parity line alternate between odd and even. For example: 1434 or 23654.
-
-<img:xxxxxx>
-
-Play the puzzle here:
-
-Play in <a style="border:1px solid black;border-radius:4px;padding:4px 5px;margin:2px;background-color:#ccf;color:black;text-decoration:none" href="link"><small>Sirxemic’s</small> Sudokumaker</a> or in
-<a style="border:1px solid black;border-radius:4px;padding:4px 5px;margin:2px;background-color:#ccf;color:black;text-decoration:none" href="link">Sven's Sudokupad</a>.
