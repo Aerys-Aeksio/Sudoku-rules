@@ -54,7 +54,7 @@ Read the clue out loud, which describes the nature of the cage. E.g. 1522 says t
 Every renban line contains a set of consecutive digits in any order, without repeats.
 -----Difference kropki:
 Cells with a white kropki between them are consecutive.
-----Ratio kropki:
+-----Ratio kropki:
 Cells with a black kropki between them are in a ratio of 1 to 2.Wich means you have the following posibilities, 1-2, 2-4, 4-8 and 3-6.
 -----German whisper lines:
 Two cells connected by a German whisper line must have a difference of at least 5.
