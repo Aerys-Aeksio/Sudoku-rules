@@ -118,7 +118,7 @@
      Cells with a white kropki between them are consecutive.
   </li>
   <li>
-    <strong><u>Ratio kropki</u></strong><br>
+    <strong><u>Ratio kropki:</u></strong><br>
     Cells with a black kropki between them are in a ratio of 1 to 2. Wich means you have the following posibilities, 1-2, 2-4, 4-8 and 3-6.
   </li>
   <li>
