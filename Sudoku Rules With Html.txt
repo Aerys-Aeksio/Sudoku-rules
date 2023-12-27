@@ -171,7 +171,7 @@
   </li>
   <li>
      <strong><u>Sandwich sum:</u></strong><br>
-     Digits between 1 and 9 in the indicated row or column must sum to the indicated value.
+     Clues on the edge of the grid show the sum of the digits sandwiched between the 1 and the 9 in that row or column.
   </li>
   <li>
      <strong><u>X-sum:</u></strong><br>
