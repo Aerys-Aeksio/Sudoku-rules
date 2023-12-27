@@ -171,11 +171,11 @@
   </li>
   <li>
      <strong><u>Sandwich sum:</u></strong><br>
-     Clues on the edge of the grid show the sum of the digits sandwiched between the 1 and the 9 in that row or column.
+     Clues outside the grid show the sum of the digits sandwiched between the 1 and the 9 in that row or column.
   </li>
   <li>
      <strong><u>X-sum:</u></strong><br>
-     Clues at the edge of the grid show the sum of the first X digits, where X is the first seen digit.
+     Clues outside the grid show the sum of the first X digits, where X is the first seen digit.
   </li>
   <li>
      <strong><u>Skyscrapers:</u></strong><br>
