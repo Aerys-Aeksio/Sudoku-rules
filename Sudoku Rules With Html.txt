@@ -147,11 +147,11 @@
   </li>
   <li>
      <strong><u>Entropic line:</u></strong><br>
-     Every 3 consecutive cells along an entropic line must contain a low digit (1,2,3), middle digit (4,5,6) and high digit (7,8,9).
+     Every 3 consecutive cells along an entropic line must contain a lowdigit (1,2,3), middle digit(4,5,6) and high digit(7,8,9).
   </li>
   <li>
      <strong><u>Modulo 3 line:</u></strong><br>
-     Every 3 consecutive cells along a 3-modular line must contain a complete set of residuals modulo 3. i.e: one from (3,6,9), one from (1,4,7) and one from (2,5,8).
+     Every 3 consecutive cells along a 3-modular line must contain a complete set of residuals modulo 3. i.e: one from (1,4,7), one from (2,5,8) and one from (3,6,9).
   </li>
   <li>
      <strong><u>Lockout line:</u></strong><br>
@@ -159,7 +159,7 @@
   </li>
   <li>
      <strong><u>Arrows:</u></strong><br>
-     Digits along an arrow sum to the number shown in the circled cells.
+     Digits along an arrow sum to the digit shown in the circled cells.
   </li>
   <li>
      <strong><u>Double arrows:</u></strong><br>
@@ -195,7 +195,7 @@
   </li>
   <li>
      <strong><u>Shifter dots:</u></strong><br>
-     Digts on different sides of a shifter dot must always
+     Digits on different sides of a shifter dot must always
 share either parity (even/odd) OR polarity (high/low) - never neither, never both. Shifter dots can never have 5 on it.
   </li>
   <li>
