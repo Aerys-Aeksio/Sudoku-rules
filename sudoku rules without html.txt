@@ -81,7 +81,7 @@ The sum of the digits along a ‘double arrow’ line is equal to the sum of the
 -----Little killers:
 Digits along marked diagonals sum to the number indicated outside the grid.
 -----Sandwich sum:
-Digits between 1 and 9 in the indicated row or column must sum to the indicated value.
+Clues on the edge of the grid show the sum of the digits sandwiched between the 1 and the 9 in that row or column.
 -----X-sum:
 Clues at the edge of the grid show the sum of the first X digits, where X is the first seen digit.
 -----Skyscrapers:
