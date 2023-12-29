@@ -162,7 +162,7 @@
      Every 4 consecutive cells along a 4-modular line must contain a complete set of residuals modulo 4. i.e: one from (1-5-9), one from (2-6), one from (3-7) and one from (4-8).
   </li>
   <li>
-     <strong><u>Polarity lines:</u></strong>
+     <strong><u>Polarity lines:</u></strong><br>
      Digits along a polarity line alternate between high(6-7-8-9) and low(1-2-3-4).
   </li>
   <li>
@@ -213,10 +213,6 @@ share either parity (even/odd) OR polarity (high/low) - never neither, never bot
   <li>
      <strong><u>Pointer thermos:</u></strong><br>
      Digits along thermometers increase in value from the bulb end. Additionally, thermometer tips point towards a cell containing the digit within the bulb. The value in the tip indicates the distance to this cell. There may be other instances of the digit between the tip and this cell. If a thermometer has more than one tip, then each tip points towards a different instance of the bulb digit.
-  </li>
-  <li>
-     <strong><u>Parity lines:</u></strong><br>
-     Digts along a parity line alternate between odd and even. For example: 1434 or 23654.
   </li>
 </ul>
 </p>
