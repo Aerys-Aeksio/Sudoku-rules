@@ -1,5 +1,10 @@
 Here you can find some sudoku rules formatted for Logic Master Germany.
+<p style="width:350px; margin:0px; padding:0px;">
+ <img:xxxxxx>
+</p>
+
 <p>
+<span style="text-decoration:underline;font-size:30px;">Rules:</span>
 <ul>
   <li>
      <strong><u>Normal 9x9 sudoku rules apply:</u></strong><br>
@@ -11,7 +16,7 @@ Here you can find some sudoku rules formatted for Logic Master Germany.
   </li>
   <li>
      <strong><u>Normal 7x7 sudoku rules apply:</u></strong><br>
-     In every row, column and in every box the digits from 1 to 7 have to appear atleast once.
+     In every row and column the digits from 1 to 7 have to appear atleast once.
   </li>
   <li>
      <strong><u>Normal 6x6 sudoku rules apply:</u></strong><br>
@@ -19,7 +24,11 @@ Here you can find some sudoku rules formatted for Logic Master Germany.
   </li>
   <li>
      <strong><u>Normal 5x5 sudoku rules apply:</u></strong><br>
-     In every row, column and in every box the digits from 1 to 5 have to appear atleast once.
+     In every row and column the digits from 1 to 5 have to appear atleast once.
+  </li>
+  <li>
+     <strong><u>Normal 4x4 sudoku rules apply:</u></strong><br>
+     In every row, column and in every 2x2 box the digits from 1 to 4 have to appear atleast once.
   </li>
   <li>
      <strong><u>Negative diagonal:</u></strong><br>
@@ -28,6 +37,14 @@ Here you can find some sudoku rules formatted for Logic Master Germany.
   <li>
      <strong><u>Positive diagonal:</u></strong><br>
      Digits cannot repeat along the positive diagonal.
+  </li>
+  <li>
+     <strong><u>Global entropy:</u></strong><br>
+     Every 2x2 square of cells must contain a low digit (1-2-3), middle digit (4-5-6) and high digit (7-8-9).
+  </li>
+  <li>
+     <strong><u>Global modulo 3:</u></strong><br>
+     Every 2x2 square of cells must contain a digit from (1-4-7), a digit from (2-5-8) and a digit from (3-6-9).
   </li>
   <li>
      <strong><u>Extra region/different values:</u></strong><br>
@@ -71,11 +88,11 @@ Here you can find some sudoku rules formatted for Logic Master Germany.
   </li>
   <li>
      <strong><u>Slow thermometers:</u></strong><br>
-     Digits on a slow thermo increase or stay the same but never decrease.
+     Digits on a slow thermo increase from the bulb to the tip or stay the same but never decrease.
   </li>
   <li>
      <strong><u>Thermometers:</u></strong><br>
-     Digits on a thermometer strictly increase as they move away from the bulb.
+     Digits on a thermometer strictly increase from the bulb to the tip.
   </li>
   <li>
      <strong><u>Killer cages:</u></strong><br>
@@ -98,12 +115,16 @@ Here you can find some sudoku rules formatted for Logic Master Germany.
      Every renban lines contains a set of consecutive digits in any order, without repeats.
   </li>
   <li>
-     <strong><u>Difference Kropki dots:</u></strong><br>
-     Cells with a white kropi dot between them are consecutive.
+     <strong><u>Nabner lines:</u></strong><br>
+     No two digits on a nabner line can be consecutive.
   </li>
   <li>
-    <strong><u>Ratio kropki dots:</u></strong><br>
-    Cells with a black dot between them are in a ratio of 1 to 2. Wich means you have the following posibilities, 1-2, 2-4, 4-8 and 3-6.
+     <strong><u>Difference kropki:</u></strong><br>
+     Cells with a white kropki between them are consecutive.
+  </li>
+  <li>
+    <strong><u>Ratio kropki:</u></strong><br>
+    Cells with a black kropki between them are in a ratio of 1 to 2. Wich means you have the following posibilities, 1-2, 2-4, 4-8 and 3-6.
   </li>
   <li>
      <strong><u>German whisper lines:</u></strong><br>
@@ -131,19 +152,23 @@ Here you can find some sudoku rules formatted for Logic Master Germany.
   </li>
   <li>
      <strong><u>Entropic line:</u></strong><br>
-     Every 3 consecutive cells along an entropic line must contain a low digit (1,2,3), middle digit (4,5,6) and high digit (7,8,9).
+     Every 3 consecutive cells along an entropic line must contain a lowdigit (1-2-3), middle digit(4-5-6) and high digit(7-8-9).
+ </li>
+ <li>
+     <strong><u>Parity line:</u></strong><br>
+     Digits along a parity line alternate between odd and even.
   </li>
   <li>
      <strong><u>Modulo 3 line:</u></strong><br>
-     Every 3 consecutive cells along a 3-modular line must contain a complete set of residuals modulo 3. i.e: one from (3,6,9), one from (1,4,7) and one from (2,5,8).
+     Every 3 consecutive cells along a 3-modular line must contain a complete set of residuals modulo 3. i.e: one from (1-4-7), one from (2-5-8) and one from (3-6-9).
+ </li>
+ <li>
+     <strong><u>Modulo 4 line:</u></strong><br>
+     Every 4 consecutive cells along a 4-modular line must contain a complete set of residuals modulo 4. i.e: one from (1-5-9), one from (2-6), one from (3-7) and one from (4-8).
   </li>
   <li>
-     <strong><u>Global entropy:</u></strong><br>
-     Every 2x2 square of cells must contain a low digit (1,2,3), middle digit (4,5,6) and high digit (7,8,9).
-  </li>
-  <li>
-     <strong><u>Global modulo 3:</u></strong><br>
-     Every 2x2 square of cells must contain a digit from (1,4,7), a digit from (2,5,8) and a digit from (3,6,9).
+     <strong><u>Polarity lines:</u></strong><br>
+     Digits along a polarity line alternate between high(6-7-8-9) and low(1-2-3-4).
   </li>
   <li>
      <strong><u>Lockout line:</u></strong><br>
@@ -151,7 +176,7 @@ Here you can find some sudoku rules formatted for Logic Master Germany.
   </li>
   <li>
      <strong><u>Arrows:</u></strong><br>
-     Digits along an arrow sum to the number shown in the circled cells.
+     Digits along an arrow sum to the digit shown in the circled cells.
   </li>
   <li>
      <strong><u>Double arrows:</u></strong><br>
@@ -163,11 +188,11 @@ Here you can find some sudoku rules formatted for Logic Master Germany.
   </li>
   <li>
      <strong><u>Sandwich sum:</u></strong><br>
-     Digits between 1 and 9 in the indicated row or column must sum to the indicated value.
+     Clues outside the grid show the sum of the digits sandwiched between the 1 and the 9 in that row or column.
   </li>
   <li>
      <strong><u>X-sum:</u></strong><br>
-     Clues at the edge of the grid show the sum of the first X digits, where X is the first seen digit.
+     Clues outside the grid show the sum of the first X digits, where X is the first seen digit.
   </li>
   <li>
      <strong><u>Skyscrapers:</u></strong><br>
@@ -187,27 +212,21 @@ Here you can find some sudoku rules formatted for Logic Master Germany.
   </li>
   <li>
      <strong><u>Shifter dots:</u></strong><br>
-     Digts on different sides of a shifter dot must always share either parity (even/odd) OR polarity (high/low) - never neither, never both. Shifter dots can never have 5 on it.
+     Digits on different sides of a shifter dot must always
+share either parity (even/odd) OR polarity (high/low) - never neither, never both. Shifter dots can never have 5 on it.
   </li>
   <li>
-     <strong><u>Pointer Thermos:</u></strong><br>
+     <strong><u>Pointer thermos:</u></strong><br>
      Digits along thermometers increase in value from the bulb end. Additionally, thermometer tips point towards a cell containing the digit within the bulb. The value in the tip indicates the distance to this cell. There may be other instances of the digit between the tip and this cell. If a thermometer has more than one tip, then each tip points towards a different instance of the bulb digit.
-  </li>
-  <li>
-     <strong><u>Parity lines:</u></strong><br>
-     Digts along a parity line alternate between odd and even. For example: 1434 or 23654.
   </li>
 </ul>
 </p>
 
-<p style="width:350px; margin:0px; padding:0px;">
- <img:xxxxxx>
-</p>
 
-<p>
-  Play the puzzle here:
+<p><span style="text-decoration:underline;font-size:30px;">Play the puzzle here online:</span>
 <br>
 <br>
-  Play in <a style="border:1px solid black;border-radius:4px;padding:4px 5px;margin:2px;background-color:#ccf;color:black;text-decoration:none" href="link"><small>Sirxemic’s</small> Sudokumaker</a> or in
-<a style="border:1px solid black;border-radius:4px;padding:4px 5px;margin:2px;background-color:#ccf;color:black;text-decoration:none" href="link">Sven's Sudokupad</a>.
+<a style="border:1px solid black;border-radius:4px;padding:4px 5px;margin:2px;background-color:#ccf;color:black;text-decoration:none" href="link"><small>Sirxemic’s</small> Sudokumaker</a><br>
+<br>
+<a style="border:1px solid black;border-radius:4px;padding:4px 5px;margin:2px;background-color:#ccf;color:black;text-decoration:none" href="link">Sven's Sudokupad</a>
 </p>
