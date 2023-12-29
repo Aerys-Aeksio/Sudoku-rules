@@ -114,6 +114,10 @@
      Every renban lines contains a set of consecutive digits in any order, without repeats.
   </li>
   <li>
+     <strong><u>Nabner lines:</u></strong><br>
+     No two digits on a nabner line can be consecutive.
+  </li>
+  <li>
      <strong><u>Difference kropki:</u></strong><br>
      Cells with a white kropki between them are consecutive.
   </li>
