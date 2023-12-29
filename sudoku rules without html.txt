@@ -52,6 +52,8 @@ Every digit in a circle has to be assigned to one of the surrounding cells.
 Read the clue out loud, which describes the nature of the cage. E.g. 1522 says there is “one five and two two(s)” in the cage.
 -----Renban lines:
 Every renban line contains a set of consecutive digits in any order, without repeats.
+-----Nabner lines:
+No two digits on a nabner line can be consecutive.
 -----Difference kropki:
 Cells with a white kropki between them are consecutive.
 -----Ratio kropki:
