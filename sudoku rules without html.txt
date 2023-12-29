@@ -67,11 +67,17 @@ Digits along a between line must be between the digits on the circled ends of th
 -----Region sum lines:
 For each line, digits on the line have an equal sum N within each box it passes through.
 -----Sequence line:
-Sequence lines contain digits in order with a constant difference. E.g. 1-2-3, 2-5-8 or even 3-3-3...
+Sequence lines contain digits in order with a constant difference. E.g. 1-2-3, 2-5-8 or even 3-3-3.
 -----Entropic line:
-Every 3 consecutive cells along an entropic line must contain a low digit(1,2,3), middle digit(4,5,6) and high digit(7,8,9).
+Every 3 consecutive cells along an entropic line must contain a low digit(1-2-3), middle digit(4-5-6) and high digit(7-8-9).
+-----Parity lines:
+Digits along a parity line alternate between odd and even.
 -----Modulo 3 line:
-Every 3 consecutive cells along a 3-modular line must contain a complete set of residuals modulo 3. i.e: one from (1,4,7), one from (2,5,8) and one from (3,6,9).
+Every 3 consecutive cells along a 3-modular line must contain a complete set of residuals modulo 3. i.e: one from (1-4-7), one from (2-5-8) and one from (3-6-9).
+-----Modulo 4 line:
+Every 3 consecutive cells along a 3-modular line must contain a complete set of residuals modulo 3. i.e: one from (1-5-9), one from (2-6), one from (3-7) and one from (4-8).
+-----Polarity lines:
+Digits along a polarity line alternate between high(6-7-8-9) and low(1-2-3-4).
 -----Lockout line:
 Digits along a lockout line must not be between the digits on the circled ends of the line, which have a difference of at least 4.
 -----Arrows:
@@ -96,5 +102,3 @@ A marked cell in column X indicates the column where X appears in the row.
 Digts on different sides of a shifter dot must always share either parity (even/odd) OR polarity (high/low) - never neither, never both. Shifter dots can never have 5 on it.
 -----Pointer thermos:
 Digits along thermometers increase in value from the bulb end. Additionally, thermometer tips point towards a cell containing the digit within the bulb. The value in the tip indicates the distance to this cell. There may be other instances of the digit between the tip and this cell. If a thermometer has more than one tip, then each tip points towards a different instance of the bulb digit.
------Parity lines:
-Digits along a parity line alternate between odd and even. For example: 1434 or 23654.
