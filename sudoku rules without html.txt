@@ -75,7 +75,7 @@ Digits along a parity line alternate between odd and even.
 -----Modulo 3 line:
 Every 3 consecutive cells along a 3-modular line must contain a complete set of residuals modulo 3. i.e: one from (1-4-7), one from (2-5-8) and one from (3-6-9).
 -----Modulo 4 line:
-Every 3 consecutive cells along a 3-modular line must contain a complete set of residuals modulo 3. i.e: one from (1-5-9), one from (2-6), one from (3-7) and one from (4-8).
+Every 4 consecutive cells along a 4-modular line must contain a complete set of residuals modulo 4. i.e: one from (1-5-9), one from (2-6), one from (3-7) and one from (4-8).
 -----Polarity lines:
 Digits along a polarity line alternate between high(6-7-8-9) and low(1-2-3-4).
 -----Lockout line:
