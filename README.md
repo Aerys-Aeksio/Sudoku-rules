@@ -225,7 +225,7 @@ share either parity (even/odd) OR polarity (high/low) - never neither, never bot
 </p>
 
 
-<p style="text-decoration:underline;font-size:30px;"><span >Play the puzzle here online:</span>
+<p style="text-decoration:underline;font-size:30px;">Play the puzzle here online:
 <br>
 <br>
 <a style="border:1px solid black;border-radius:4px;padding:4px 5px;margin:2px;background-color:#ccf;color:black;text-decoration:none" href="link"><small>Sirxemic’s</small> Sudokumaker</a><br>
