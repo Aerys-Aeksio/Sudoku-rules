@@ -1,4 +1,4 @@
-5Here you can find some <span style="color:blue;">sudoku</span> rules formatted for Logic Master Germany.
+35Here you can find some <span style="color:blue;">sudoku</span> rules formatted for Logic Master Germany.
 you can find color names here https://htmlcolorcodes.com/color-names/ and color-blind friendly colors here https://www.datylon.com/blog/data-visualization-for-colorblind-readers#color-blind-palette <img style="width:350px;" src="https://www.datylon.com/hs-fs/hubfs/Datylon Website2020/Blogs/The best charts for color blind viewers/datylon-blog-best-charts-for-color-blind-viewers-color-blindness-palette.png?width=1800&name=datylon-blog-best-charts-for-color-blind-viewers-color-blindness-palette.png">
 
 <p style="width:350px; margin:0px; padding:0px;">
@@ -279,6 +279,7 @@ share either parity (even/odd) OR polarity (high/low) - never neither, never bot
   <tr>
     <td>Orange</td>
     <td style="background-color:#EE7733;">#EE7733</td>
+    <td></td>
     <td></td>
   </tr>
     <tr>
