@@ -232,24 +232,7 @@ share either parity (even/odd) OR polarity (high/low) - never neither, never bot
 <br>
 <a style="border:1px solid black;border-radius:4px;padding:4px 5px;margin:2px;background-color:#ccf;color:black;text-decoration:none" href="link">Sven's Sudokupad</a>
 </p>
-<html>
-<head>
- <title>Colorblind Friendly Colorschemes</title>
-  <style>
-    table, th, td
-    {
-      border: 1px solid black;
-      border-collapse: collapse;
-    },
-    table, th
-    {
-        text-decoration: underline;
-        text-align: center;
-        font-size: 200%;
-    };
-  </style>
-</head>
-<body>
+<br>
 <table>
   <tr>
     <th>Color</th>
