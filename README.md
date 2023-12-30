@@ -1,5 +1,6 @@
 Here you can find some sudoku rules formatted for Logic Master Germany.
 you can find color names here https://htmlcolorcodes.com/color-names/
+
 <p style="width:350px; margin:0px; padding:0px;">
  <img:xxxxxx>
 </p>
@@ -8,7 +9,7 @@ you can find color names here https://htmlcolorcodes.com/color-names/
 <span style="text-decoration:underline;font-size:30px;">Rules:</span>
 <ul>
   <li>
-     <span style="color:blue;"><strong><u>Normal 9x9 sudoku rules apply:</u></strong></span><br>
+     <strong><u>Normal 9x9 sudoku rules apply:</u></strong><br>
      In every row, column and in every 3x3 box the digits from 1 to 9 have to appear atleast once.
   </li>
   <li>
