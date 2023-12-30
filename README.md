@@ -1,5 +1,5 @@
 Here you can find some sudoku rules formatted for Logic Master Germany.
-you can find color names here https://htmlcolorcodes.com/color-names/ and color-blind friendly colors here https://www.datylon.com/blog/data-visualization-for-colorblind-readers#color-blind-palette
+you can find color names here https://htmlcolorcodes.com/color-names/ and color-blind friendly colors here https://www.datylon.com/blog/data-visualization-for-colorblind-readers#color-blind-palette <img src="https://www.datylon.com/blog/data-visualization-for-colorblind-readers#color-blind-palette">
 
 <p style="width:350px; margin:0px; padding:0px;">
  <img:xxxxxx>
