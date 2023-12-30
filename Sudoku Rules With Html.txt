@@ -6,7 +6,7 @@
 Rules:
 </div>
 <//p>
-<ol>
+<ol style="list-style-type:square;">
   <li>
      <strong><u>Normal 9x9 sudoku rules apply:</u></strong><br>
      In every row, column and in every 3x3 box the digits from 1 to 9 have to appear atleast once.
