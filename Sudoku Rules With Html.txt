@@ -4,7 +4,7 @@
 
 <p>
 <span style="text-decoration:underline;font-size:30px;">Rules:</span>
-<ul>
+<ol>
   <li>
      <strong><u>Normal 9x9 sudoku rules apply:</u></strong><br>
      In every row, column and in every 3x3 box the digits from 1 to 9 have to appear atleast once.
@@ -218,7 +218,7 @@ share either parity (even/odd) OR polarity (high/low) - never neither, never bot
      <strong><u>Pointer thermos:</u></strong><br>
      Digits along thermometers increase in value from the bulb end. Additionally, thermometer tips point towards a cell containing the digit within the bulb. The value in the tip indicates the distance to this cell. There may be other instances of the digit between the tip and this cell. If a thermometer has more than one tip, then each tip points towards a different instance of the bulb digit.
   </li>
-</ul>
+</ol>
 </p>
 
 
