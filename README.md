@@ -1,4 +1,5 @@
 Here you can find some sudoku rules formatted for Logic Master Germany.
+you can find color names here https://htmlcolorcodes.com/color-names/
 <p style="width:350px; margin:0px; padding:0px;">
  <img:xxxxxx>
 </p>
