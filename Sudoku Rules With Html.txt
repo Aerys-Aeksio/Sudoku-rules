@@ -1,11 +1,12 @@
-<p style="width:350px; margin:0px; padding:0px;">
+<div style="width:350px; margin:0px; padding:0px;">
  <img:xxxxxx>
-</p>
+</div>
 
-<div style="margin:5px;padding:5px;text-decoration:underline;font-size:30px;border-bottom:1px solid;text-align:center; font-weight:bold; font-size:2rem; background: rgba(200,200,200,0.5); border-top-left-radius:1rem; border-top-right-radius:1rem;">
+<div style="margin:5px; padding:5px; text-decoration:underline; font-size:30px; border-bottom:1px solid;text-align:center;  font-weight:bold; font-size:2rem; background: rgba(200,200,200,0.5); border-top-left-radius:1rem; border-top-right-radius:1rem;">
 Rules:
 </div>
-<//p>
+
+<div style="margin-left: 5px; margin-right:5px;">
 <ol style="list-style-type:square;">
   <li>
      <strong><u>Normal 9x9 sudoku rules apply:</u></strong><br>
@@ -225,15 +226,20 @@ share either parity (even/odd) OR polarity (high/low) - never neither, never bot
     Digits along arrows sum to the value in the connected circle. Additionally, arrow tips point towards a cell containing the digit within the arrow's circle. The value in the arrow tip indicates the distance from the arrow tip to this cell. There may be other instances of the same digit between this cell and the arrow tip.
   </li>
 </ol>
-</p>
+</div>
 
+<div>
+<div style="text-align:center;">
+  <a style="border:1px solid black;border-radius:4px;padding:4px 5px;margin:2px;background-color:#00A36C;color:black;text-decoration:none" href="link"><small>Sirxemic’s</small> Sudokumaker</a>
+&nbsp;
+  <a style="border:1px solid black; border-radius:4px; padding:4px 5px; margin:2px; background-color:#00A36C; color:black; text-decoration:none" href="link">Sven's Sudokupad</a>
+<br>
+<br>
+<div style="margin:5px;padding:5px;font-size:30px;border-bottom:1px solid;text-align:center; font-weight:bold; font-size:2rem; background: rgba(200,200,200,0.5); border-bottom-left-radius:1rem; border-bottom-right-radius:1rem;">
+^^<u>Play the puzzle here online</u>^^</span>
+</div>
 
-<p><span style="text-decoration:underline;font-size:30px;">Play the puzzle here online:</span>
-<br>
-<br>
-<a style="border:1px solid black;border-radius:4px;padding:4px 5px;margin:2px;background-color:#ccf;color:black;text-decoration:none" href="link"><small>Sirxemic’s</small> Sudokumaker</a><br>
-<br>
-<a style="border:1px solid black;border-radius:4px;padding:4px 5px;margin:2px;background-color:#ccf;color:black;text-decoration:none" href="link">Sven's Sudokupad</a><br>
-<br>
 Have fun and leave a nice message :D.
-</p>
+</div>
+</div>
+</div>
