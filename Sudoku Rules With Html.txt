@@ -1,5 +1,8 @@
+<div style="margin:5px; padding:5px; text-decoration:underline; font-size:30px; border-bottom:1px solid;text-align:center;  font-weight:bold; font-size:2rem; background: rgba(200,200,200,0.5); border-top-left-radius:1rem; border-top-right-radius:1rem;">
+
 <div style="width:350px; margin:0px; padding:0px;">
  <img:xxxxxx>
+</div>
 </div>
 
 <div style="margin:5px; padding:5px; text-decoration:underline; font-size:30px; border-bottom:1px solid;text-align:center;  font-weight:bold; font-size:2rem; background: rgba(200,200,200,0.5); border-top-left-radius:1rem; border-top-right-radius:1rem;">
