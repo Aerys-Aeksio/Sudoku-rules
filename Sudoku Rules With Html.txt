@@ -242,11 +242,11 @@ share either parity (even/odd) OR polarity (high/low) - never neither, never bot
   <a style="border:1px solid black; border-radius:4px; padding:4px 5px; margin:2px; background-color:#00A36C; color:black; text-decoration:none" href="link">Sven's Sudokupad</a>
 <br>
 <br>
+Have fun in playing the puzzle and leave a kind message :-)
+<br>
 <div style="margin:5px;padding:5px;font-size:30px;border-bottom:1px solid;text-align:center; font-weight:bold; font-size:2rem; background: rgba(200,200,200,0.5); border-bottom-left-radius:1rem; border-bottom-right-radius:1rem;">
 ^^<u>Play the puzzle here online</u>^^</span>
 </div>
-
-Have fun and leave a nice message :D.
 </div>
 </div>
 </div>
