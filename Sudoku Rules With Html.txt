@@ -17,7 +17,7 @@ Rules:
 </div>
 
 <div style="margin-left: 5px; margin-right:5px;">
-<ol style="list-style-type:square;">
+<ol style="list-style-type:square; text-align: justify;">
   <li>
      <strong><u>Normal 9x9 sudoku rules apply:</u></strong><br>
      In every row, column and in every 3x3 box the digits from 1 to 9 have to appear atleast once with no repeats.
