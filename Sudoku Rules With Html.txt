@@ -255,6 +255,10 @@ share either parity (even/odd) OR polarity (high/low) - never neither, never bot
     <strong><u>Pointer Arrows:</u></strong><br>
     Digits along arrows sum to the value in the connected circle. Additionally, arrow tips point towards a cell containing the digit within the arrow's circle. The value in the arrow tip indicates the distance from the arrow tip to this cell. There may be other instances of the same digit between this cell and the arrow tip.
   </li>
+  <li>
+    <strong><u>Friendly Cells:</strong></u><br>
+    A cell is friendly if it contains a digit that is the same as its row, column or box number.
+</li>
 </ol>
 </div>
 
