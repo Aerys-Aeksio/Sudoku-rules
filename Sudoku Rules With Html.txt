@@ -2,7 +2,7 @@
 The Puzzle
 </div>
 
-<div style="width:350px; margin:0px; padding:0px;">
+<div style="width:350px; margin:auto; padding:0px;">
  <img:xxxxxx>
 </div>
 
