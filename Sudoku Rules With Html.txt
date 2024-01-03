@@ -75,7 +75,7 @@ Rules:
      Cells with the same position within the boxes cannot contain the same digit.
   </li>
   <li>
-     <strong><u>Non­-consecutive:</u></strong><br>
+     <strong><u>Non-consecutive:</u></strong><br>
      Cells that are orthogonally adjacent cannot contain consecutive digits.
   </li>
   <li>
