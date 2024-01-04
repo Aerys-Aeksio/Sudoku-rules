@@ -257,10 +257,10 @@ share either parity (even/odd) OR polarity (high/low) - never neither, never bot
   </li>
   <li>
     <strong><u>Friendly Cells:</strong></u><br>
-    A cell is friendly if it contains a digit that is the same as its row, column or box number.
+    A cell is friendly if it contains a digit that is the same as it's row, column or box number.
   </li>
   <li><u><strong>Zipper Lines:</strong></u>
-  Digits an equal distance from the (bumped/circled) center of a Lavender Zipper line sum to the same number.
+  Digits an equal distance from the (bumped/circled) center of a Zipper line sum to the same number.
   </li>
 </ol>
 </div>
