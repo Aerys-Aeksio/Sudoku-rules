@@ -117,6 +117,6 @@ Digits along thermometers increase in value from the bulb end. Additionally, the
 -----Pointer Arrows:
 Digits along arrows sum to the value in the connected circle. Additionally, arrow tips point towards a cell containing the digit within the arrow's circle. The value in the arrow tip indicates the distance from the arrow tip to this cell. There may be other instances of the same digit between this cell and the arrow tip.
 -----Friendly Cells:
-A cell is friendly if it contains a digit that is the same as its row, column or box number.
+A cell is friendly if it contains a digit that is the same as it's row, column or box number.
 -----Zipper Lines:
 Digits an equal distance from the (bumped/circled) center of a Lavender Zipper line sum to the same number.
