@@ -26,7 +26,7 @@ Cells seperated by a king’s move in chess cannot have the same digit.
 Cells seperated by a knight’s move in chess cannot have the same digit.
 -----Disjoint groups:
 Cells with the same position within the boxes cannot contain the same digit.
------Non­-consecutive:
+-----Non-consecutive:
 Cells that are orthogonally adjacent cannot contain consecutive digits.
 -----Even:
 Cells with grey squares must contain EVEN digit.
