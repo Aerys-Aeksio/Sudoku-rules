@@ -119,4 +119,4 @@ Digits along arrows sum to the value in the connected circle. Additionally, arro
 -----Friendly Cells:
 A cell is friendly if it contains a digit that is the same as it's row, column or box number.
 -----Zipper Lines:
-Digits an equal distance from the (bumped/circled) center of a Lavender Zipper line sum to the same number.
+Digits an equal distance from the (bumped/circled) center of a Zipper line sum to the same number.
