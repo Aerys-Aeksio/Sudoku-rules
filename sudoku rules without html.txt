@@ -120,3 +120,5 @@ Digits along arrows sum to the value in the connected circle. Additionally, arro
 A cell is friendly if it contains a digit that is the same as it's row, column or box number.
 -----Zipper Lines:
 Digits an equal distance from the (bumped/circled) center of a Zipper line sum to the same number.
+-----Area sum lines:
+If a region of cells is enclosed by an unbroken section of orange line, then the sum of digits in the area enclosed by the line is equal to the sum of the digits along the perimeter line section. Digits may repeat on area sum lines if permitted by other rules. Area sum regions cannot be contained within another. i.e. if two area sum regions are conjoined, then the larger conjoined region is not itself an area sum region.
