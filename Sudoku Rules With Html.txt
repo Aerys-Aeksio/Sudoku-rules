@@ -165,16 +165,16 @@ Rules:
   <li>
      <strong><u>Entropic line:</u></strong><br>
      Every 3 consecutive cells along an entropic line must contain a low digit (1-2-3), middle digit(4-5-6) and high digit(7-8-9).
- </li>
- <li>
+  </li>
+  <li>
      <strong><u>Parity line:</u></strong><br>
      Digits along a parity line alternate between a odd digit and an even digit.
   </li>
   <li>
      <strong><u>Modulo 3 line:</u></strong><br>
      Every 3 consecutive cells along a 3-modular line must contain a complete set of residuals modulo 3. i.e: one digit from (1-4-7), one digit  from (2-5-8) and one digit from (3-6-9).
- </li>
- <li>
+  </li>
+  <li>
      <strong><u>Modulo 4 line:</u></strong><br>
      Every 4 consecutive cells along a 4-modular line must contain a complete set of residuals modulo 4. i.e: one digit from (1-5-9), one digit from (2-6), one digit from (3-7) and one digit from (4-8).
   </li>
