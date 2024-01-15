@@ -275,9 +275,9 @@ share either parity (even/odd) OR polarity (high/low) - never neither, never bot
 </div>
 
 <div style="text-align:center;">
-  <a style="border:1px solid black;border-radius:4px;padding:4px 5px;margin:2px;background-color:#00A36C;color:black;text-decoration:none" href="link"><small>Sirxemic’s</small> Sudokumaker</a>
+  <a style="border:1px solid black;border-radius:4px;padding:4px 5px;margin:2px;background-color: rgba(200,200,200,0.5);color:black;text-decoration:none" href="link"><small>Sirxemic’s</small> Sudokumaker</a>
 &nbsp;
-  <a style="border:1px solid black; border-radius:4px; padding:4px 5px; margin:2px; background-color:#00A36C; color:black; text-decoration:none" href="link">Sven's Sudokupad</a>
+  <a style="border:1px solid black; border-radius:4px; padding:4px 5px; margin:2px; background-color: rgba(200,200,200,0.5); color:black; text-decoration:none" href="link">Sven's Sudokupad</a>
 <br>
 <br>
 Have fun in playing the puzzle and leave a kind message :-]<br>
