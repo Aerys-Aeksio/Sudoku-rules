@@ -258,7 +258,7 @@ share either parity (even/odd) OR polarity (high/low) - never neither, never bot
   </li>
 </ol>
 
-<p>
+<p style="margin:auto;">
 <a style="border:1px solid black;border-radius:4px;padding:4px 5px;margin:2px;background-color: rgba(200,200,200,0.5);color:black;text-decoration:none" href="link"><small>Sirxemic’s</small> Sudokumaker</a>
 &nbsp;
   <a style="border:1px solid black; border-radius:4px; padding:4px 5px; margin:2px; background-color: rgba(200,200,200,0.5); color:black; text-decoration:none" href="link">Sven's Sudokupad</a>
