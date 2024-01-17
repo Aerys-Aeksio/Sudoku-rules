@@ -9,256 +9,256 @@
 <div style="margin-left: 5px; margin-right:5px;">
 <ol style="list-style-type:square; text-align: justify;">
   <li>
-     <strong><u>Normal 9x9 sudoku rules apply: </u></strong>
+     <strong><u>Normal 9x9 sudoku rules apply:</u></strong> 
      In every row, column and in every 3x3 box the digits from 1 to 9 have to appear atleast once with no repeats.
   </li>
   <li>
-     <strong><u>Normal 8x8 sudoku rules apply: </u></strong>
+     <strong><u>Normal 8x8 sudoku rules apply:</u></strong> 
      In every row, column and in every 4x2 box the digits from 1 to 8 have to appear atleast once with no repeats.
   </li>
   <li>
-     <strong><u>Normal 7x7 sudoku rules apply: </u></strong>
+     <strong><u>Normal 7x7 sudoku rules apply:</u></strong> 
      In every row and column the digits from 1 to 7 have to appear atleast once with no repeats.
   </li>
   <li>
-     <strong><u>Normal 6x6 sudoku rules apply: </u></strong>
+     <strong><u>Normal 6x6 sudoku rules apply:</u></strong> 
      In every row, column and in every 3x2 box the digits from 1 to 6 have to appear atleast once with no repeats.
   </li>
   <li>
-     <strong><u>Normal 5x5 sudoku rules apply: </u></strong>
+     <strong><u>Normal 5x5 sudoku rules apply:</u></strong> 
      In every row and column the digits from 1 to 5 have to appear atleast once with no repeats.
   </li>
   <li>
-     <strong><u>Normal 4x4 sudoku rules apply: </u></strong>
+     <strong><u>Normal 4x4 sudoku rules apply:</u></strong> 
      In every row, column and in every 2x2 box the digits from 1 to 4 have to appear atleast once with no repeats.
   </li>
   <li>
-     <strong><u>Negative diagonal: </u></strong>
+     <strong><u>Negative diagonal:</u></strong> 
      Digits cannot repeat along the negative diagonal.
   </li>
   <li>
-     <strong><u>Positive diagonal: </u></strong>
+     <strong><u>Positive diagonal:</u></strong> 
      Digits cannot repeat along the positive diagonal.
   </li>
   <li>
-     <strong><u>Global entropy: </u></strong>
+     <strong><u>Global entropy:</u></strong> 
      Every 2x2 square of cells must contain a low digit (1-2-3), middle digit (4-5-6) and high digit (7-8-9).
   </li>
   <li>
-     <strong><u>Global modulo 3: </u></strong>
+     <strong><u>Global modulo 3:</u></strong> 
      Every 2x2 square of cells must contain a digit from (1-4-7), a digit from (2-5-8) and a digit from (3-6-9).
   </li>
   <li>
-     <strong><u>Extra region/different values: </u></strong>
+     <strong><u>Extra region/different values:</u></strong> 
      Digits cannot repeat in the marked cells.
   </li>
   <li>
-     <strong><u>Anti-king: </u></strong>
+     <strong><u>Anti-king:</u></strong> 
      Cells seperated by a king’s move in chess cannot have the same digit.
   </li>
   <li>
-     <strong><u>Anti-knight: </u></strong>
+     <strong><u>Anti-knight:</u></strong> 
      Cells seperated by a knight’s move in chess cannot have the same digit.
   </li>
   <li>
-     <strong><u>Disjoint groups: </u></strong>
+     <strong><u>Disjoint groups:</u></strong> 
      Cells with the same position within the boxes cannot contain the same digit.
   </li>
   <li>
-     <strong><u>Non-consecutive: </u></strong>
+     <strong><u>Non-consecutive:</u></strong> 
      Cells that are orthogonally adjacent cannot contain consecutive digits.
   </li>
   <li>
-     <strong><u>Even: </u></strong>
+     <strong><u>Even:</u></strong> 
      Cells with grey squares must contain EVEN digit.
   </li>
   <li>
-     <strong><u>Odd: </u></strong>
+     <strong><u>Odd:</u></strong> 
      Cells with grey circles must contain ODD digit.
   </li>
   <li>
-     <strong><u>Maximum: </u></strong>
+     <strong><u>Maximum:</u></strong> 
      Cells with this constraint are greater than all orthogonal adjacent cells without this constraint.
   </li>
   <li>
-     <strong><u>Minimum: </u></strong>
+     <strong><u>Minimum:</u></strong> 
      Cells with this constraint are smaller than all orthogonal adjacent cells without this constraint.
   </li>
   <li>
-     <strong><u>XV-Pairs: </u></strong>
+     <strong><u>XV-Pairs:</u></strong> 
      Cells joined by an X or V must sum to 10(X) or 5(V).
   </li>
   <li>
-     <strong><u>Slow thermometers: </u></strong>
+     <strong><u>Slow thermometers:</u></strong> 
      Digits on a slow thermo increase from the bulb to the tip or stay the same but never decrease.
   </li>
   <li>
-     <strong><u>Thermometers: </u></strong>
+     <strong><u>Thermometers:</u></strong> 
      Digits on a thermometer strictly increase from the bulb to the tip.
   </li>
   <li>
-     <strong><u>Killer cages: </u></strong>
+     <strong><u>Killer cages:</u></strong> 
      Digits in cages must sum to the number in the top-left corner and cannot repeat.
   </li>
   <li>
-     <strong><u>Clones: </u></strong>
+     <strong><u>Clones:</u></strong> 
      The arrangement of digits in a part of the sudoku must be the same elsewhere.
   </li>
   <li>
-     <strong><u>Quadruples: </u></strong>
+     <strong><u>Quadruples:</u></strong> 
      Every digit in a circle has to be assigned to one of the surrounding cells.
   </li>
   <li>
-     <strong><u>Look-and-say cages: </u></strong>
+     <strong><u>Look-and-say cages:</u></strong> 
      Read the clue out loud, which describes the nature of the cage. E.g. 1522 says there is “one five and two two(s)” in the cage.
   </li>
   <li>
-     <strong><u>Renban lines: </u></strong>
+     <strong><u>Renban lines:</u></strong> 
      Every renban lines contains a set of consecutive digits in any order, without repeats.
   </li>
   <li>
-     <strong><u>Nabner lines: </u></strong>
+     <strong><u>Nabner lines:</u></strong> 
      No two digits on a nabner line can be consecutive.
   </li>
   <li>
-     <strong><u>Difference kropki: </u></strong>
+     <strong><u>Difference kropki:</u></strong> 
      Cells with a white kropki between them are consecutive.
   </li>
   <li>
-    <strong><u>Ratio kropki: </u></strong>
+    <strong><u>Ratio kropki:</u></strong> 
     Cells with a black kropki between them are in a ratio of 1 to 2. Wich means you have the following posibilities, 1-2, 2-4, 4-8 and 3-6.
   </li>
   <li>
-     <strong><u>German whisper lines: </u></strong>
+     <strong><u>German whisper lines:</u></strong> 
      Two cells connected by a German whisper line must have a difference of at least 5.
   </li>
   <li>
-     <strong><u>Dutch whisper lines: </u></strong>
+     <strong><u>Dutch whisper lines:</u></strong> 
      Two cells connected by a Dutch whisper line must have a difference of at least 4.
   </li>
   <li>
-     <strong><u>Palindrome: </u></strong>
+     <strong><u>Palindrome:</u></strong> 
      Digits on a palindrome line read the same forwards and backwards.
   </li>
   <li>
-     <strong><u>Between lines: </u></strong>
+     <strong><u>Between lines:</u></strong> 
      Digits along a between line must be between the digits on the circled ends of the line.
   </li>
   <li>
-     <strong><u>Region sum lines: </u></strong>
+     <strong><u>Region sum lines:</u></strong> 
      For each line, digits on the line have an equal sum N within each box it passes through.
   </li>
   <li>
-     <strong><u>Sequence line: </u></strong>
+     <strong><u>Sequence line:</u></strong> 
      Sequence lines contain digits in order with a constant difference. E.g. 1-2-3, 2-5-8 or even 3-3-3...
   </li>
   <li>
-     <strong><u>Entropic line: </u></strong>
+     <strong><u>Entropic line:</u></strong> 
      Every 3 consecutive cells along an entropic line must contain a low digit (1-2-3), middle digit(4-5-6) and high digit(7-8-9).
   </li>
   <li>
-     <strong><u>Parity line: </u></strong>
+     <strong><u>Parity line:</u></strong> 
      Digits along a parity line alternate between a odd digit and an even digit.
   </li>
   <li>
-     <strong><u>Modulo 3 line: </u></strong>
+     <strong><u>Modulo 3 line:</u></strong> 
      Every 3 consecutive cells along a 3-modular line must contain a complete set of residuals modulo 3. i.e: one digit from (1-4-7), one digit  from (2-5-8) and one digit from (3-6-9).
   </li>
   <li>
-     <strong><u>Modulo 4 line: </u></strong>
+     <strong><u>Modulo 4 line:</u></strong> 
      Every 4 consecutive cells along a 4-modular line must contain a complete set of residuals modulo 4. i.e: one digit from (1-5-9), one digit from (2-6), one digit from (3-7) and one digit from (4-8).
   </li>
   <li>
-     <strong><u>Polarity lines: </u></strong>
+     <strong><u>Polarity lines:</u></strong> 
      Digits along a polarity line alternate between high digit(6-7-8-9) and low digit(1-2-3-4). 5 cannot go on a Polarity line.
   </li>
   <li>
-     <strong><u>Lockout line: </u></strong>
+     <strong><u>Lockout line:</u></strong> 
      Digits along a lockout line must not be between the digits on the circled ends of the line, which have a difference of at least 4.
   </li>
   <li>
-     <strong><u>Arrows: </u></strong>
+     <strong><u>Arrows:</u></strong> 
      Digits along an arrow sum to the digit shown in the circled cells.
   </li>
   <li>
-     <strong><u>Double arrows: </u></strong>
+     <strong><u>Double arrows:</u></strong> 
      The sum of the digits along a ‘double arrow’ line is equal to the sum of the digits in the circles at either end of the line.
   </li>
   <li>
-     <strong><u>Little killers: </u></strong>
+     <strong><u>Little killers:</u></strong> 
      Digits along marked diagonals sum to the number indicated outside the grid.
   </li>
   <li>
-     <strong><u>Sandwich sum: </u></strong>
+     <strong><u>Sandwich sum:</u></strong> 
      Clues outside the grid show the sum of the digits sandwiched between the 1 and the 9 in that row or column.
   </li>
   <li>
-     <strong><u>Sandwich sum: </u></strong>
+     <strong><u>Sandwich sum:</u></strong> 
      Clues outside the grid show the sum of the digits sandwiched between the 1 and the 8 in that row or column.
   </li>
   <li>
-     <strong><u>Sandwich sum: </u></strong>
+     <strong><u>Sandwich sum:</u></strong> 
      Clues outside the grid show the sum of the digits sandwiched between the 1 and the 7 in that row or column.
   </li>
   <li>
-     <strong><u>Sandwich sum: </u></strong>
+     <strong><u>Sandwich sum:</u></strong> 
      Clues outside the grid show the sum of the digits sandwiched between the 1 and the 6 in that row or column.
   </li>
   <li>
-     <strong><u>Sandwich sum: </u></strong>
+     <strong><u>Sandwich sum:</u></strong> 
      Clues outside the grid show the sum of the digits sandwiched between the 1 and the 5 in that row or column.
   </li>
   <li>
-     <strong><u>Sandwich sum: </u></strong>
+     <strong><u>Sandwich sum:</u></strong> 
      Clues outside the grid show the sum of the digits sandwiched between the 1 and the 4 in that row or column.
   </li>
   <li>
-     <strong><u>X-sum: </u></strong>
+     <strong><u>X-sum:</u></strong> 
      Clues outside the grid show the sum of the first X digits, where X is the first seen digit.
   </li>
   <li>
-     <strong><u>Skyscrapers: </u></strong>
+     <strong><u>Skyscrapers:</u></strong> 
      Each digit in the grid represents the height of a building in its cell. Taller buildings obstruct the view of shorter ones behind them. Clues outside the grid give the number of buildings visible from that vantage point in the clue's row or column.
   </li>
   <li>
-     <strong><u>Numbered rooms: </u></strong>
+     <strong><u>Numbered rooms:</u></strong> 
      Clues outside the grid indicate the digit which has to be placed in the Nth cell in the corresponding direction, where N is the digit placed in the first cell in that direction.
   </li>
   <li>
-     <strong><u>Row indexers: </u></strong>
+     <strong><u>Row indexers:</u></strong> 
      A marked cell in row X indicates the row where X appears in the column.
   </li>
   <li>
-     <strong><u>Column indexers: </u></strong>
+     <strong><u>Column indexers:</u></strong> 
      A marked cell in column X indicates the column where X appears in the row.
   </li>
   <li>
-     <strong><u>Shifter dots: </u></strong>
+     <strong><u>Shifter dots:</u></strong> 
      Digits on different sides of a shifter dot must always
 share either parity (even/odd) OR polarity (high/low) - never neither, never both. Shifter dots can never have 5 on it.
   </li>
   <li>
-     <strong><u>Pointer thermos: </u></strong>
+     <strong><u>Pointer thermos:</u></strong> 
      Digits along thermometers increase in value from the bulb end. Additionally, thermometer tips point towards a cell containing the digit within the bulb. The value in the tip indicates the distance to this cell. There may be other instances of the digit between the tip and this cell. If a thermometer has more than one tip, then each tip points towards a different instance of the bulb digit.
   </li>
   <li>
-    <strong><u>Pointer Arrows: </u></strong>
+    <strong><u>Pointer Arrows:</u></strong> 
     Digits along arrows sum to the value in the connected circle. Additionally, arrow tips point towards a cell containing the digit within the arrow's circle. The value in the arrow tip indicates the distance from the arrow tip to this cell. There may be other instances of the same digit between this cell and the arrow tip.
   </li>
   <li>
-    <strong><u>Friendly Cells: </strong></u>
+    <strong><u>Friendly Cells:</u></strong> 
     A cell is friendly if it contains a digit that is the same as it's row, column or box number.
   </li>
   <li>
-     <strong><u>Zipper Lines: </u></strong>
+     <strong><u>Zipper Lines:</u></strong> 
   Digits an equal distance from the (bumped/circled) center of a Zipper line sum to the same number.
   </li>
   <li>
-     <strong><u>Area sum lines: </u></strong>
+     <strong><u>Area sum lines:</u></strong> 
      If a region of cells is enclosed by an unbroken section of orange line, then the sum of digits in the area enclosed by the line is equal to the sum of the digits along the perimeter line section. Digits may repeat on area sum lines if permitted by other rules. Area sum regions cannot be contained within another. i.e. if two area sum regions are conjoined, then the larger conjoined region is not itself an area sum region.
   </li>
   <li>
-     <strong><u>Fog Of War: </u></strong>
+     <strong><u>Fog Of War:</u></strong> 
      The grid is covered with fog. Place correct digits into the cells to get more light, it's OK to put a digit into a cell that is covered by fog.
   </li>
 </ol>
