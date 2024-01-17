@@ -94,7 +94,7 @@
   </li>
   <li>
      <strong><u>Killer cages:</u></strong> 
-     Digits in cages must sum to the number in the top-left corner and cannot repeat.
+     Digits in cages must sum to the number in the top-left corner of the cage and cannot repeat.
   </li>
   <li>
      <strong><u>Clones:</u></strong> 
