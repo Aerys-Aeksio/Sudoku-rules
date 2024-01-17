@@ -2,10 +2,6 @@
  <img:xxxxxx>
 </div>
 
-<div style="margin:5px; padding:5px; text-decoration:underline; font-size:30px; border-bottom:1px solid;text-align:center;  font-weight:bold; font-size:2rem; background: rgba(200,200,200,0.5); border-bottom-left-radius:1rem; border-bottom-right-radius:1rem;">
-^^The Puzzle^^
-</div>
-<br>
 <div style="margin-left: 5px; margin-right:5px;">
 <ol style="list-style-type:square; text-align: justify;">
   <li>
